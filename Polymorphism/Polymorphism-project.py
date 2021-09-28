@@ -24,7 +24,9 @@ class Plane(Vehicle):
     brand = "Airbus"
     color = "White"
     fuel = "Hydrogen"
-
+    wing-style = "Canted"
+    propulsion-system = "Jet Engines
+    
     def flight(self):
         msg ="\nPlanes go very fast and fly high in the sky!"
         return msg
@@ -34,6 +36,8 @@ class Car(Vehicle):
     brand = "Mazda"
     color = "Blue"
     fuel = "Gasoline"
+    Wheel-size = "22 inches"
+    Body-kit = "Deuce Style"
 
     def drive(self):
         msg = "\nCars are much faster than going on foot and horseback!"
