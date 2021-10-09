@@ -9,6 +9,8 @@
 class Protected:
     def __init__(self):
         self.__privateVar = 21
+        self.protectedVar = 0
+        
 
     def getPrivate(self):
         print(self.__privateVar)
@@ -21,3 +23,6 @@ obj.getPrivate()
 # Setting the private Var to another number
 obj.setPrivate(300)
 obj.getPrivate()
+obj._protectedVar = 21
+print(obj._protectedVar)
+
